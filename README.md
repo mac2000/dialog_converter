@@ -5,9 +5,13 @@ This is the converter of the dialog data, that is used in order to prepare the
 
 ## Requirements
 
-The script only requires the ```scikit-learn``` in order to work. If you do not have it, you can easily install it with the following command:
+The script only requires the `scikit-learn`, `numpy`, `scipy` in order to work. If you do not have it, you can easily install it with the following command:
 
     sudo pip install scikit-learn
+    sudo pip install numpy
+    sudo pip install scipy
+
+Note for Windows users - easiest way to run this `docker run -it --rm -v %cd%:/data python:2 bash`
 
 ## Usage
 
